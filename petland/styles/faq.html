@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Petland | faq</title>
+    <!--styles-->
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!--fonts-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+
+</head>
+<body>
+<!--header-->
+<header class="header" id="petHeader">
+    <div class="container">
+        <div class="header__row">
+            <div class="brandLogo">
+                <a href="">
+                    <img src="./assets/images/shared/logo.svg" alt="" class="brandLogo__dark">
+                    <img src="./assets/images/shared/logo_red.svg" alt="" class="brandLogo__light">
+                </a>
+            </div>
+            <div class="mainNav" id="navBar">
+                <div class="mainNav__content">
+                    <ul class="mainNav__list">
+                        <li class="mainNav__item">
+                            <a href="puppies.html">Pets</a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a tabindex="" id="mainNav__expand">Perks</a>
+                            <ul class="mainNav__sub">
+                                <li><a href="products-supplies.html">supplies</a></li>
+                                <li><a href="birds.html">Birds</a></li>
+                                <li><a href="">Small Animals</a></li>
+                                <li><a href="finance.html">Financing</a></li>
+                                <li><a href="">Special orders</a></li>
+                            </ul>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="our-breeds.html">Breeds</a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="products-food.html">Products</a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="cares.html">Cares</a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="finance.html">Financing</a>
+                        </li>
+                        <li class="mainNav__item">
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                    <div class="social d-lg-none">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="">
+                                    <img src="./assets/images/shared/i-facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="">
+                                    <img src="./assets/images/shared/i-google-plus.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="">
+                                    <img src="./assets/images/shared/i-pinterest.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="">
+                                    <img src="./assets/images/shared/i-instagram.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="">
+                                    <img src="./assets/images/shared/i-youtube.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mainNav__info d-lg-none">
+                        <a href="mailto:info@petlandflorida.com">info@petlandflorida.com</a>
+                        <p>Phone: 954-442-3106</p>
+                    </div>
+                    <div class="mainNav__close d-lg-none">
+                        <a onclick="toogleMenu()">&times;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--quicklinks-->
+<div class="quickLinks">
+    <ul class="quickLinks__list">
+        <li class="quickLinks__item">
+            <a href="contact.html"><img src="./assets/images/shared/icon-call-us.svg" alt=""><span>Call us</span></a>
+        </li>
+        <li class="quickLinks__item">
+            <a href="products-food.html"><img class="iconRotate" src="./assets/images/shared/icon-products.svg"
+                                              alt=""><span>Products</span></a>
+        </li>
+        <li class="quickLinks__item d-lg-none">
+            <a onclick="toogleMenu()" id="menuBtn"><img src="./assets/images/shared/hamburguer-menu-icon.svg"
+                                                        alt=""><span>Menu</span></a>
+        </li>
+        <li class="quickLinks__item">
+            <a href="products-supplies.html"><img src="./assets/images/shared/dog.svg" alt=""><span>supplies</span></a>
+        </li>
+        <li class="quickLinks__item">
+            <a href="finance.html"><img src="./assets/images/shared/icon-financing.svg"
+                                        alt=""><span>Financing</span></a>
+        </li>
+    </ul>
+</div>
+<!--masthead-->
+<div class="masthead">
+    <picture class="masthead__picture">
+        <source media="(min-width:597px)" srcset="./assets/images/hero-faq-desktop.png">
+        <img src="./assets/images/hero-faq-mobile.jpg" alt="">
+    </picture>
+
+    <div class="masthead__content--internal masthead__content--bg-text container container--reduce">
+        <div class="masthead__row masthead__row--fluid">
+            <h1 class="masthead__title pl-md-4">
+                <span>Faq</span>
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="container container--reduce">
+    <section class="about faq">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 faq__col">
+                <div class="about__card faq__card">
+                    <h2 class="about__title">Will my puppy be registered?</h2>
+                    <p class="about__text">
+                        <strong>A:</strong> There are several canine registries (The American Kennel Club, (AKC), APR,
+                        ACA, UKC) and others. Most of our puppies are registered. You will be given the opportunity to
+                        register your new puppy at the time of purchase.
+                    </p>
+
+                </div>
+                <div class="about__card faq__card">
+                    <h2 class="about__title">What does it mean to have a registered puppy?</h2>
+                    <p class="about__text">
+                        <strong>A: </strong>Buying a registered, purebred puppy means that its family tree is documented
+                        as being exclusively one breed. Buying a registered dog does not necessarily mean that the dog
+                        will be healthier than a non-registered dog. It means that its parents are of the same breed and
+                        that the dog comes from a purebred line. AKC (American Kennel Club) is the most familiar
+                        purebred dog registry in the country. There are several other dog registries such as ACA, APR,
+                        UKC that also register purebred dogs.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 faq__col">
+                <div class="about__card faq__card">
+                    <h2 class="about__title">Will my puppy be microchipped?</h2>
+                    <p class="about__text">
+                        <strong>A:</strong> Yes, all of our puppies are microchipped before purchase. You will be given
+                        the opportunity to register it at the time of purchase. It is extremely important to register
+                        your puppies microchip. If your puppy should ever become lost, there is a good chance that your
+                        puppy will be recovered if it has a registered microchip. In a pets lifetime, one out of three
+                        will become lost. Without enrollment registration and identification about ninety percent will
+                        not be recovered.
+                    </p>
+
+                </div>
+                <div class="about__card faq__card">
+                    <h2 class="about__title">What breeds
+                        are best for people
+                        who have allergies?</h2>
+                    <p class="about__text">
+                        <strong>A: </strong>People who have allergies should consider dogs that are hypoallergenic.
+                        Breeds to consider are: Bedlington Terrier, Bichon Frise, Chinese Crested, Irish Water Spaniel,
+                        Kelly Blue Terrier, Maltese, Poodle, Schnauzer, Soft Coated Wheaten Terrier.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!--footer-->
+<footer class="footer">
+    <div class="container container--reduce">
+        <div class="footer__row">
+            <div class="footer__col location">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 d-lg-none">
+                        <div class="text-center mb-3">
+                            <img src="./assets/images/shared/location.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 location__group">
+                        <h5 class="location__city"><img src="./assets/images/shared/map-marker.svg" alt="">Pembroke
+                            Pines</h5>
+                        <p class="location__address">
+                            356 N University Drive
+                            Pembroke Pines, FL 33024</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 location__group">
+                        <h5 class="location__city"><img src="./assets/images/shared/map-marker.svg" alt="">Plantation
+                        </h5>
+                        <p class="location__address">
+                            801 South University Drive Suite #C-106
+                            Plantation, FL 33324</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 location__group">
+                        <h5 class="location__city"><img src="./assets/images/shared/map-marker.svg" alt="">Davie</h5>
+                        <p class="location__address">
+                            11482 W State Road 84 Davie, FL 33325</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 location__group">
+                        <h5 class="location__city"><img src="./assets/images/shared/map-marker.svg" alt="">Kendall</h5>
+                        <p class="location__address">
+                            Kendall 8236 Mills Drive
+                            Miami, FL 33183</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="schedule">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 d-lg-none">
+                            <div class="text-center  mb-3">
+                                <img src="./assets/images/shared/paw-prints.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 text-center text-lg-left">
+                            <h5 class="schedule__title">Hours</h5>
+                            <span class="schedule__days">Monday - Sunday</span>
+                            <span class="schedule__days">10:00 am - 09:00 pm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__row">
+            <div class="footer__col--lg">
+                <div class="social">
+                    <ul class="social__list text-center text-lg-left">
+                        <li class="social__item">
+                            <a href="">
+                                <img src="./assets/images/shared/i-facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="">
+                                <img src="./assets/images/shared/i-google-plus.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="">
+                                <img src="./assets/images/shared/i-pinterest.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="">
+                                <img src="./assets/images/shared/i-instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="">
+                                <img src="./assets/images/shared/i-youtube.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__sub">
+        <div class="container container--reduce">
+            <div class="footer__row--sb   text-center text-lg-lef">
+                <h6 class="footer__privacy">© 2018 PETLAND FLORIDA PRIVACY POLICY</h6>
+                <img class="footer__image 	d-none d-lg-block" src="./assets/images/shared/logo-black.svg" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--script-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="js/main-jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

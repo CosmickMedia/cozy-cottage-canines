@@ -1,0 +1,51 @@
+/**
+ * Transform px to rem
+ */
+@function calcRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+@mixin fontSize($size) {
+  font-size: calcRem($size);
+}
+/**
+ * Transition
+ */
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  transition:  $args;
+}
+
+/**
+ * Media Query
+ */
+$phone : '(max-width: 480px)';
+$tablet-portrait: '(max-width: 767px)';
+$tablet-landscape: '(min-width: 768px) and (max-width: 979px)';
+$large-desktop: '(min-width: 1200px)';
+$non-retina: 'screen and (-webkit-max-device-pixel-ratio: 1)';
+$retina: '(min--moz-device-pixel-ratio: 1.5),
+                    (-o-min-device-pixel-ratio: 3/2),
+                    (-webkit-min-device-pixel-ratio: 1.5),
+                    (min-device-pixel-ratio: 1.5),
+                    (min-resolution: 144dpi),
+                    (min-resolution: 1.5dppx)';
+
+@mixin respond-to($media) {
+  @media only screen and #{$media} {
+    @content;
+  }
+}
+
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+      src: url('../assets/fonts/gotham/#{$file-path}.eot');
+      src: url('../assets/fonts/gotham/#{$file-path}.eot?#iefix')               format('embedded-opentype'),
+      url('../assets/fonts/gotham/#{$file-path}.woff')                     format('woff'),
+      url('../assets/fonts/gotham/#{$file-path}.woff2')                     format('woff2'),
+      url('../assets/fonts/gotham/#{$file-path}.ttf')                      format('truetype');
+  }
+}

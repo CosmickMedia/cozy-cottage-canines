@@ -1,0 +1,17 @@
+/**
+ * Config Color
+ */
+$theme-colors: () !default;
+$theme-colors: map-merge((
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $green,
+    "info": $info,
+    //"warning": $warning,
+    //"danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "dark-gray": $dark-gray,
+
+), $theme-colors);
+$body-bg:#f1f1f1;

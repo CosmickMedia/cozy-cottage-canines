@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="11.5" cy="11.5" r="11.5" fill="#D45224"/>
+        <text fill="#FFF" font-family=".AppleSystemUIFont" font-size="18" letter-spacing="1.628">
+            <tspan x="9" y="17">!</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-grid .grid {
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery-grid .grid {
+        gap: 4rem;
+    }
+}
