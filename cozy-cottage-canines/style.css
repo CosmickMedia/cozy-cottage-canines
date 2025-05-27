@@ -1,8 +1,8 @@
 /*
-Theme Name: Petland Florida
+Theme Name: Cozy Cottage Canines
 Author: Alexander Baron
 Author URI: <mailto:alexbaron50@gmail.om>
-Description: Petland Florida
+Description: Cozy Cottage Canines
 Version: 2.0
  */
 
@@ -18,7 +18,7 @@ Version: 2.0
     margin: 2.5rem 0;
 }
 .extras__content > ul > li {
-    font-family: "Gotham",sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.81;
     letter-spacing: 0.5px;
     margin-bottom: 1.125rem;
@@ -27,7 +27,7 @@ Version: 2.0
 }
 .extras__content > ul > li:before {
     content: "\25AA";
-    color: #d45224;
+    color: #800000;
     display: inline-block;
     width: auto;
     margin-left: -2rem;
