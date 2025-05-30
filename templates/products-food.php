@@ -23,7 +23,7 @@
 				For dogs and cats that eat the same food every day, it’s essential that their food provides all of the nutrients needed for an active lifestyle.
 			</p>
 			<p class="masthead__text d-none d-md-block">
-				At Petland we sell only the finest foods available. Browse our brands below, or visit our store to see our full selection of food & other essentials.
+				At Cozy Canine Cottage we sell only the finest foods available. Browse our brands below, or visit our store to see our full selection of food & other essentials.
 			</p>
 		</div>
 	</div>

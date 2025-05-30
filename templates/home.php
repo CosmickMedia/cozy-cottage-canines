@@ -81,7 +81,7 @@
                     <p class="feature__text">We are proud of our
                         commitment to animal welfare
                         and quality of our pets.</p>
-                    <a href="" class="feature__cta">Petland Cares <img src="<?php echo THEME_URL; ?>/styles/assets/images/shared/next-arrow.svg" alt=""></a>
+                    <a href="" class="feature__cta">Cozy Canine Cottage Cares <img src="<?php echo THEME_URL; ?>/styles/assets/images/shared/next-arrow.svg" alt=""></a>
                 </div>
             </div>
 

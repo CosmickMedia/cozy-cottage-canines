@@ -1,6 +1,6 @@
 <?php
 
-define('THEME_LOCALE', 'petland');
+define('THEME_LOCALE', 'cozy-canine-cottage');
 define('THEME_URL', get_template_directory_uri());
 define('THEME_ROUTE', get_template_directory());
 

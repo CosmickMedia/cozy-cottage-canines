@@ -16,7 +16,7 @@
             <?php $posturl = Theme_Manager::get_instance()->get_theme_page_link('why_petland_content_page'); ?>
             <?php $postid = url_to_postid($posturl); ?>
             <div class="title-block">
-                <h2 class="heading heading--h3">Why petland</h2>
+                <h2 class="heading heading--h3">Why Cozy Canine Cottage</h2>
                 <?php $post = get_post($postid); ?>
             </div>
             <div class="grid">

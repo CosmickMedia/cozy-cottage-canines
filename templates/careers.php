@@ -12,10 +12,10 @@
         <div class="masthead__box">
             <h1 class="heading heading--h1">JOIN THE TEAM</h1>
             <p>
-                Petland Cleveland is always searching for highly motivated people with a strong love
-                for animals. Interviews will be conducted as positions become available at our locations
-                in Parma and Strongsville, OH. <br><br>
-                If you are interested in being employed at Petland Cleveland, please complete and submit
+                Cozy Canine Cottage is always searching for highly motivated people with a strong love
+                for animals. Interviews will be conducted as positions become available
+                at our location. <br><br>
+                If you are interested in being employed at Cozy Canine Cottage, please complete and submit
                 the application below. If you are selected to attend an interview, we will contact you as
                 soon as possible.
             </p>
@@ -40,9 +40,8 @@
     </div>
 
     <p class="mb-5">
-        Petland Cleveland has two locations in Parma and Strongsville. We are constantly seeking
-        animal-loving individuals to join our dedicated staff. Boasting an international presence,
-        the Petland brand has provided entry-level jobs to people around the world since 1967.
+        Cozy Canine Cottage is constantly seeking
+        animal-loving individuals to join our dedicated staff.
     </p>
 
     <!-- Grid Wrapper (matches your site’s .grid, .grid__row, etc.) -->
@@ -119,7 +118,7 @@
                 </div>
                 <div class="career__expand" id="career_sales_manager">
                     <div class="career__description">
-                        <p>The Sales Manager is responsible for developing a positive Petland culture on the sales floor, guiding a team of Pet Counselors to deliver the Petland Mission.</p>
+                        <p>The Sales Manager is responsible for developing a positive Cozy Canine Cottage culture on the sales floor, guiding a team of Pet Counselors to deliver the Cozy Canine Cottage Mission.</p>
                     </div>
                     <?php echo do_shortcode('[gravityform id="13" title="false" description="false" ajax="true"]'); ?>
                 </div>
@@ -134,7 +133,7 @@
                 </div>
                 <div class="career__expand" id="career_kennel_manager">
                     <div class="career__description">
-                        <p>The Kennel Manager is responsible for providing excellent care for pets at Petland by following systems and procedures to ensure the pet’s four basic needs are met.</p>
+                        <p>The Kennel Manager is responsible for providing excellent care for pets at Cozy Canine Cottage by following systems and procedures to ensure the pet’s four basic needs are met.</p>
                     </div>
                     <?php echo do_shortcode('[gravityform id="13" title="false" description="false" ajax="true"]'); ?>
                 </div>

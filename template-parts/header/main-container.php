@@ -6,7 +6,7 @@
             <div class="main-header__logo">
                 <?php if ($image): ?>
                     <a href="<?php echo home_url(); ?>">
-                        <img src="<?php echo $image['url']; ?>" alt="petland" title="PETLAND KANSAS"/>
+                        <img src="<?php echo $image['url']; ?>" alt="Cozy Canine Cottage" title="Cozy Canine Cottage"/>
                     </a>
                 <?php endif; ?>
             </div>

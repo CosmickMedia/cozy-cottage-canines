@@ -63,7 +63,7 @@
           </div>
         <?php endforeach; ?>
     </div>
-	  <img src="https://www.petlandflorida.com/wp-content/uploads/2024/11/petland-franchise.png" width="200" alt="Petland">
+	  <img src="https://www.petlandflorida.com/wp-content/uploads/2024/11/petland-franchise.png" width="200" alt="Cozy Canine Cottage">
     <div class="footer__social">
         <?php get_template_part('template-parts/common/social-links'); ?>
     </div>
