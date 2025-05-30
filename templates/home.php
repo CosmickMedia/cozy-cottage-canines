@@ -20,15 +20,15 @@
 		<img src="<?php echo THEME_URL; ?>/styles//assets/images/main-hero-mobile.jpg" alt="">
 	</picture>
 
-	<div class="masthead__content   ">
-		<h1 class="masthead__title sr sr-translateL">
-			Find your perfect match
-		</h1>
-		<p class="masthead__text sr sr-translateL">
-			We are dedicated to matching the right pet with the right customer
-		</p>
-		<a href="" class="btn btn-primary sr sr-translateL">available puppies</a>
-	</div>
+        <div class="masthead__content   ">
+                <h1 class="masthead__title sr sr-translateL">
+                        Discover your new best friend
+                </h1>
+                <p class="masthead__text sr sr-translateL">
+                        We're committed to connecting healthy, happy puppies with loving families
+                </p>
+                <a href="" class="btn btn-primary sr sr-translateL">browse puppies</a>
+        </div>
 
 </div>
 
