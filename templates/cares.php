@@ -151,7 +151,7 @@
 		</div>
 
 		<div class="heading__card">
-			<div class="heading__bar" style="background: #96a550;"></div>
+			<div class="heading__bar" style="background: #333333;"></div>
 			<div class="heading__head heading__head--row">
 				<h2 class="heading__title">Pedigree Society</h2>
 				<p class="heading__text">
