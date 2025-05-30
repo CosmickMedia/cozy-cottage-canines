@@ -1,14 +1,15 @@
-<?php $image = Theme_Manager::get_instance()->get_theme_option('header'); ?>
+<?php
+// Always use the new Cozy Canine Cottage logo.
+$logo_url = get_template_directory_uri() . '/assets/images/cozy-logo.png';
+?>
 
 <header class="main-header mdc-top-app-bar" id="topAppBar">
     <div class="mdc-top-app-bar__row container">
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
             <div class="main-header__logo">
-                <?php if ($image): ?>
-                    <a href="<?php echo home_url(); ?>">
-                        <img src="<?php echo $image['url']; ?>" alt="Cozy Canine Cottage" title="Cozy Canine Cottage"/>
-                    </a>
-                <?php endif; ?>
+                <a href="<?php echo home_url(); ?>">
+                    <img src="<?php echo esc_url($logo_url); ?>" alt="Cozy Canine Cottage" title="Cozy Canine Cottage"/>
+                </a>
             </div>
         </section><!-- ./ mdc-top-app-bar__section--align-start -->
 
