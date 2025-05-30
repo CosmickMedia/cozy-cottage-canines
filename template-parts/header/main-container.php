@@ -27,9 +27,6 @@ $logo_url = get_template_directory_uri() . '/assets/images/cozy-logo.png';
                 <?php get_template_part('template-parts/header/main-menu'); ?>
             </nav>
 
-            <div class="quick-links">
-                <?php get_template_part('template-parts/header/quicklinks'); ?>
-            </div><!-- ./ quick-links -->
         </section><!-- ./ mdc-top-app-bar__section--align-end -->
     </div><!-- ./mdc-top-app-bar__row -->
 </header><!-- ./ header -->
