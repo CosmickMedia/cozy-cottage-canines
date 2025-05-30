@@ -6352,6 +6352,12 @@ button {
     font-size: 14px
 }
 
+.footer__business-info {
+    font-size: 14px;
+    margin-left: 16px;
+    text-align: right
+}
+
 .footer__payments img {
     display: inline-block
 }
@@ -6450,6 +6456,10 @@ button {
 
     .footer__legal span {
         margin-top: 15px
+    }
+    .footer__business-info {
+        margin-top: 15px;
+        text-align: center
     }
 }
 

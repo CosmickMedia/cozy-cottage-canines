@@ -69,6 +69,13 @@
     
     </div>
     <div class="footer__legal">
+      <div class="footer__business-info">
+        <?php $store = Theme_Manager::get_instance()->get_store_information(); ?>
+        <strong><?php echo esc_html($store['name']); ?></strong><br>
+        <span><?php echo esc_html($store['address']); ?></span><br>
+        <span><?php echo Theme_Manager::get_instance()->format_phone($store['phone']); ?></span><br>
+        <span><?php echo esc_html($store['hours']); ?></span>
+      </div>
       <div class="footer__payments">
         <img src="<?php Theme_Manager::get_instance()->get_image_assets('i-visa.png'); ?>" alt="">
         <img src="<?php Theme_Manager::get_instance()->get_image_assets('i-mastercard.png'); ?>" alt="">
