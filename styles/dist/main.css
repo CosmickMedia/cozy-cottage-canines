@@ -6329,6 +6329,9 @@ button {
     margin-bottom: 10px;
     display: block
 }
+.footer__info {
+    display: flex
+}
 .footer__links ul {
     list-style: none;
     margin: 0;
@@ -6355,7 +6358,7 @@ button {
 .footer__business-info {
     font-size: 14px;
     margin-left: 16px;
-    text-align: right
+    text-align: left
 }
 
 .footer__payments img {
@@ -6370,54 +6373,18 @@ button {
     .footer__container {
         padding-bottom:60px;
         border-bottom: 1px solid #dedede;
-        display: grid;
-        grid-template-columns: repeat(2, 0.5fr);
-        grid-template-areas: "locations logo" "locations links" "locations social" "locations legal";
-        grid-template-rows: 50px 80px 35px auto
-    }
-
-    .footer__locations {
-        grid-area: locations;
-        display: flex
-    }
-
-    .footer__logo {
-        grid-area: logo
-    }
-
-    .footer__logo img {
-        margin-left: auto
-    }
-
-    .footer__links {
-        grid-area: links
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start
     }
 
     .footer__links a {
         text-align: right
     }
 
-    .footer__social {
-        grid-area: social;
-        align-self: flex-end
-    }
-
-    .footer__legal {
-        display: flex;
-        flex-direction: row-reverse;
-        grid-area: legal;
-        align-self: end;
-        justify-items: flex-end
-    }
-
-    .footer__legal>span {
-        margin-right: 16px
-    }
-
-    .footer__links .heading--h5,
-    .footer__locations .heading--h5,
-    .footer__locations>img {
-        display: none
+    .footer__business-info {
+        margin-left: 16px;
+        text-align: left
     }
 }
 
@@ -6427,27 +6394,14 @@ button {
     }
 
     .footer__container {
-        text-align: center
+        text-align: center;
+        display: block
     }
 
-
-    .footer__locations {
-        padding-top: 30px;
-        border-top: 1px solid #dedede;
-        margin-bottom: 60px;
-        margin-top: 40px
-    }
-
-    .footer__locations .location__items li {
-        font-size: 16px
-    }
-
-    .footer__locations .location__hour {
-        font-size: 12px
-    }
-
-    .footer__social {
-        justify-content: center
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center
     }
 
     .footer__logo img {
@@ -6459,6 +6413,7 @@ button {
     }
     .footer__business-info {
         margin-top: 15px;
+        margin-left: 0;
         text-align: center
     }
 }
