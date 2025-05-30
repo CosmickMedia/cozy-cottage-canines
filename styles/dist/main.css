@@ -6394,18 +6394,18 @@ button {
     }
 
     .footer__container {
-        text-align: center;
+        text-align: left;
         display: block
     }
 
     .footer__info {
         display: flex;
         flex-direction: column;
-        align-items: center
+        align-items: flex-start
     }
 
     .footer__logo img {
-        margin: 40px auto
+        margin: 40px 0
     }
 
     .footer__legal span {
@@ -6414,7 +6414,7 @@ button {
     .footer__business-info {
         margin-top: 15px;
         margin-left: 0;
-        text-align: center
+        text-align: left
     }
 }
 
