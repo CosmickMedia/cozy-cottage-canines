@@ -69,3 +69,8 @@ Version: 1.0
 .shopwindow-form__logo > img {
     padding: 0 5px;
 }
+
+/* Disable sticky behavior for the main header */
+.main-header.mdc-top-app-bar {
+    position: static !important;
+}
