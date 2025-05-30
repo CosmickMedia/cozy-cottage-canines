@@ -6329,6 +6329,11 @@ button {
     margin-bottom: 10px;
     display: block
 }
+.footer__links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
 
 .footer__social {
     display: flex;
@@ -6403,7 +6408,9 @@ button {
         margin-right: 16px
     }
 
-    .footer__links .heading--h5,.footer__links>img,.footer__locations .heading--h5,.footer__locations>img {
+    .footer__links .heading--h5,
+    .footer__locations .heading--h5,
+    .footer__locations>img {
         display: none
     }
 }
@@ -6417,9 +6424,6 @@ button {
         text-align: center
     }
 
-    .footer__links>img {
-        margin-bottom: 10px
-    }
 
     .footer__locations {
         padding-top: 30px;
