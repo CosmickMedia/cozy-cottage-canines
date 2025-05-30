@@ -177,7 +177,7 @@ class Redux_Core_Options
                     'id' => 'why_petland_content_page',
                     'type' => 'select',
                     'data' => 'pages',
-                    'title' => __('Why Petland Content Page', $this->theme_locale),
+                    'title' => __('Why Cozy Canine Cottage Content Page', $this->theme_locale),
                 ],
                 [
                     'id' => 'blog_desktop_bg',

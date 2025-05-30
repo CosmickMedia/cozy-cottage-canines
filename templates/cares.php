@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Petland Cares
+ * Template Name: Cozy Canine Cottage Cares
  */
 ?>
 
@@ -18,7 +18,7 @@
 	<section class="cares__slide">
 
 		<div class="info info--fluid">
-			<h2 class="info__title">Petland Pets make life better</h2>
+			<h2 class="info__title">Cozy Canine Cottage pets make life better</h2>
 			<div class="info__text"></div>
 		</div>
 
@@ -90,7 +90,7 @@
                             <div class="article__content">
                                 <h6>Our Commitment</h6>
                                 <p>Our mission is to enhance the human-animal bond and provide life-long companions for our
-                                    customers. We’ve created strict requirements to help us follow that mission. Petland is
+                                    customers. We’ve created strict requirements to help us follow that mission. Cozy Canine Cottage is
                                     dedicated to improving conditions for all dogs in the communities we serve. We do this
                                     by setting an excellent example for the entire pet industry and encouraging highest
                                     standards of pet care.
@@ -99,15 +99,15 @@
                                     <iframe src="https://www.youtube.com/embed/mbn_3uRyHcs?rel=0" frameborder="0"
                                             allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
-                                <p>Petland is proud of its commitment to animal welfare and quality of our pets. Petland
+                                <p>Cozy Canine Cottage is proud of its commitment to animal welfare and quality of our pets. Cozy Canine Cottage
                                     stores are independently owned and operated, and each operator is responsible for
-                                    choosing healthy pets offered to Petland customers. Our stores establish relationships
+                                    choosing healthy pets offered to Cozy Canine Cottage customers. Our stores establish relationships
                                     with pet providers and are charged with visiting the facilities from which they purchase
                                     puppies for their stores.</p>
 
-                                <h6>Where do Petland puppies come from?</h6>
+                                <h6>Where do Cozy Canine Cottage puppies come from?</h6>
 
-                                <p>Our puppies are happy and healthy family pets. Petland’s puppies come from: <br> <br>
+                                <p>Our puppies are happy and healthy family pets. our puppies come from: <br> <br>
 
                                     USDA licensed breeders and distributors with no direct violations within the last 2
                                     years and who have a veterinarian-documented socialization and exercise program and
@@ -117,9 +117,9 @@
                                     dogs in a humane manner. <br>
                                     Local adoption pets that are vet-checked. Additionally, some of our puppies and kittens
                                     come from local animal shelters or from members of the local community as part of
-                                    Petland’s Adopt-A-Pet program, dedicated to finding homes for accidental litters. In
-                                    this program, Petland store operators work with local animal shelters and with members
-                                    of the community to find homes for homeless pets. Through Petland’s Adopt-A-Pet program,
+                                    Our Adopt-A-Pet program, dedicated to finding homes for accidental litters. In
+                                    this program, our store operators work with local animal shelters and with members
+                                    of the community to find homes for homeless pets. Through Our Adopt-A-Pet program,
                                     hundreds of thousands of shelter and community animals have been placed with caring
                                     families. <br>
                                     The USDA is the agency that regulates the food we feed our families, and we trust its

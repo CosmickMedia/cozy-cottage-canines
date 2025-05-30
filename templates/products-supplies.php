@@ -20,7 +20,7 @@
 				<span>Supplies</span>
 			</h1>
 			<p class="masthead__text">
-				Petland Florida offers valuable information on caring for your cat and choosing a kitten that is right
+				Cozy Canine Cottage offers valuable information on caring for your cat and choosing a kitten that is right
 			</p>
 			<p class="masthead__text">
 				right for you. We have a wide selection of products for kittens and full grown cats alike.
@@ -64,7 +64,7 @@
 
 								<h6>Stain and Odor Remover</h6>
 								<p>Enzymatically breaks down organic stains that attract the cat back to the same areas.
-									We recommend Petland Premium Stain and Odor Remover!</p>
+									We recommend our Premium Stain and Odor Remover!</p>
 
 								<h6>Tear Stain Remover & Ear Cleaner</h6>
 								<p>Keeps eyes and ears clean to prevent infection and stains.</p>
@@ -109,7 +109,7 @@
 
 								<h6>Stain and Odor Remover</h6>
 								<p>Enzymatically breaks down organic stains that attract the cat back to the same areas.
-									We recommend Petland Premium Stain and Odor Remover!</p>
+									We recommend our Premium Stain and Odor Remover!</p>
 
 								<h6>Tear Stain Remover & Ear Cleaner</h6>
 								<p>Keeps eyes and ears clean to prevent infection and stains.</p>
@@ -155,7 +155,7 @@
 
 								<h6>Stain and Odor Remover</h6>
 								<p>Enzymatically breaks down organic stains that attract the cat back to the same areas.
-									We recommend Petland Premium Stain and Odor Remover!</p>
+									We recommend our Premium Stain and Odor Remover!</p>
 
 								<h6>Tear Stain Remover & Ear Cleaner</h6>
 								<p>Keeps eyes and ears clean to prevent infection and stains.</p>
@@ -201,7 +201,7 @@
 
 								<h6>Stain and Odor Remover</h6>
 								<p>Enzymatically breaks down organic stains that attract the cat back to the same areas.
-									We recommend Petland Premium Stain and Odor Remover!</p>
+									We recommend our Premium Stain and Odor Remover!</p>
 
 								<h6>Tear Stain Remover & Ear Cleaner</h6>
 								<p>Keeps eyes and ears clean to prevent infection and stains.</p>

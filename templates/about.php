@@ -37,7 +37,7 @@
 					<p class="about__text">
 						We are proud of our Pet Counselors, they receive periodic training, and they love what they do.
 						It is this aspect as well as product quality, selection and a real love of animals that gives
-						Petland it’s reputation.
+						Cozy Canine Cottage’s reputation.
 					</p>
 					<p class="about__text"> A major focus of our Pet Counselors is to educate people about pets. This
 						information assists
@@ -56,7 +56,7 @@
 						Buying a puppy can be one of the most joyful experiences of your life. That’s why we’re
 						here.</p>
 					<p class="about__text">
-						Petland puppies must meet standards before they can become Petland puppies.
+						Our puppies must meet standards before they can become Cozy Canine Cottage puppies.
 					</p>
 				</div>
 			</div>
@@ -78,7 +78,7 @@
 				<div class="about__card">
 					<h4 class="about__subtitle">Our Program:</h4>
 					<p class="about__text">
-						A Petland puppy is provided with significant veterinarian care and vaccinations before it is
+						A Cozy Canine Cottage puppy is provided with significant veterinarian care and vaccinations before it is
 						placed in your home.</p>
 					<ul class="about__list">
 						<li class="about__item">We use high quality food.</li>
@@ -95,7 +95,7 @@
 				<div class="about__card">
 					<h4 class="about__subtitle">Your Benefits:</h4>
 					<p class="about__text">
-						Petland offers many different breeds, we will help match you with the right breed for your
+						Cozy Canine Cottage offers many different breeds, we will help match you with the right breed for your
 						personality and lifestyle.</p>
 					<ul class="about__list">
 						<li class="about__item">We provide a Health Certificate, and the vaccines up to date.</li>
@@ -103,7 +103,7 @@
 						<li class="about__item">3 Generations Pedigree.
 							Registration Papers.
 						</li>
-						<li class="about__item">SPetland provides all customers with a comprehensive one (1) year
+						<li class="about__item">Cozy Canine Cottage provides all customers with a comprehensive one (1) year
 							hereditary and congenital warranty with their puppy.
 						</li>
 						<li class="about__item">Pets for a Lifetime Resources Kit (with a training video).</li>
