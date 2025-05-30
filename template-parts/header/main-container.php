@@ -1,6 +1,8 @@
 <?php
+
 // Always use the new Cozy Canine Cottage logo.
 $logo_url = get_template_directory_uri() . '/assets/images/cozy-logo.png';
+
 ?>
 
 <header class="main-header mdc-top-app-bar" id="topAppBar">
