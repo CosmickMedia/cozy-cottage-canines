@@ -817,6 +817,48 @@ class Theme_Manager
         return $locations;
     }
 
+    /**
+     * Retrieve WooCommerce store details or return placeholder information.
+     *
+     * @return array
+     */
+    public function get_store_information()
+    {
+        $store = [];
+
+        $store['name'] = get_bloginfo('name');
+
+        $address_parts   = [];
+        $address_1       = get_option('woocommerce_store_address');
+        $address_2       = get_option('woocommerce_store_address_2');
+        $city            = get_option('woocommerce_store_city');
+        $state           = get_option('woocommerce_store_state');
+        $postcode        = get_option('woocommerce_store_postcode');
+
+        if ($address_1) {
+            $address_parts[] = $address_1;
+        }
+        if ($address_2) {
+            $address_parts[] = $address_2;
+        }
+
+        $city_line = trim("$city $state $postcode");
+        if ($city_line) {
+            $address_parts[] = $city_line;
+        }
+
+        $store['address'] = $address_parts ? implode(', ', $address_parts) : '1234 Placeholder St, City, ST 00000';
+
+        $store['phone'] = get_option('woocommerce_store_phone');
+        if (!$store['phone']) {
+            $store['phone'] = '5555555555';
+        }
+
+        $store['hours'] = 'Mon - Fri: 9am - 5pm';
+
+        return $store;
+    }
+
     public function get_social_network_url($social_network)
     {
         return $this->get_theme_option($social_network);
