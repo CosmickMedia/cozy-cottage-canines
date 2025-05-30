@@ -1,0 +1,71 @@
+/*
+Theme Name: Petland parma
+Author: Edgar Carrasco
+Author URI: <mailto:edgar,carrasco@creativecoregroup.com>
+Description: Petland Parma Theme
+Version: 1.0
+ */
+
+.admin-bar .header {
+    top: 32px;
+}
+
+.swiper-slide--has-cc-badge, .card__image--has-cc-badge {
+    position: relative;
+}
+
+.card__image--has-cc-badge:after {
+    content: '';
+}
+
+.swiper-slide__cc-badge, .card__image--has-cc-badge:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 16.23%;
+    width: 100%;
+    background-image: url(./assets/images/cc-badge-footer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 8;
+}
+
+.puppy__slider--has-cc-badge {
+    position: relative;
+    padding-bottom: 11.46%!important;
+}
+
+.shopwindow-form__consent {
+    font-size: 11px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.shopwindow-form__buttons-container {
+    display: flex;
+}
+
+.shopwindow-form__buttons {
+    font-size: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopwindow-form__logo {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.shopwindow-form__terms {
+    text-decoration: underline;
+}
+
+.shopwindow-form__logo > img {
+    padding: 0 5px;
+}
